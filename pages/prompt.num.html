@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../assets/favicon.ico">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+		<h1>JAVASCRIPT</h1>
+		<h3>2.2 Nombres ( addition )</h3>
+		<p>Pour les nombres fournis par l'utilisateur, le résultat n'est pas très satisfaisante, pour ce fait, l'utilisation de la fonction parseInt() est nécessaire.</p>
+		<p>Voici un exemple de code :</p>
+		<code>
+			&lt;<span class="balise">script</span>&gt;<br>
+			&nbsp; <span class="blue">var</span> nombre1, nombre2, result;<br><br>
+			&nbsp; nombre1 <span class="balise">=</span> prompt(<span class="yellow">'Tapez le premier nombre :'</span>);<br>
+			&nbsp; nombre2 <span class="balise">=</span> prompt(<span class="yellow">'Tapez le deuxième nombre :'</span>);<br>
+			&nbsp; result <span class="balise">=</span> <span class="green">parseInt</span>(nombre1) <span class="balise">+</span> <span class="green">parseInt</span>(nombre2); <!--span class="commentaire">// le (' ') est utilisé pour ajouter d'espace.</span--> <br><br>
+			&nbsp; <span class="blue">alert</span>(result);<br>
+			&lt;<span class="balise">/script</span>&gt;
+		</code>
+		<p>Les valeurs du fonction prompt() sont récuprés sous forme de chaine de caractère, la fonction parseInt() s'occupe de la conversion de ce dernier en nombre.</p>
+		<!--button><a href="../#.html">Suivant</a></button--><button><a href="prompt.html">Retour</a></button>
+	</div>
+</body>
+</html>

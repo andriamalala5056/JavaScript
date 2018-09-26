@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../assets/favicon.ico">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+		<h1>JAVASCRIPT</h1>
+		<h2>2. Prompt</h2>
+		<h3>2.1 Chaine de caractère</h3>
+		<p>La fonction prompt s'utilise comme alert mais a une petite particularité. Elle renvoie ce que l'utilisateur a écrit sous forme d'une chaîne de caractères, voilà pourquoi on écrit de cette manière :</p>
+		<code>
+			<span class="blue">var</span> text <span class="balise">=</span> prompt(<span class="yellow">'Tapez quelque chose :'</span>);
+		</code>
+		<p>Ci dessous un exemple, et appliqué sur cette page ( actualisez la page pour revoir l'exemple )</p>
+		<code>
+			&lt;<span class="balise">script</span>&gt;<br>
+			&nbsp; <span class="blue">var</span> nom, prenom, result;<br><br>
+			&nbsp; nom <span class="balise">=</span> prompt(<span class="yellow">'Tapez votre nom :'</span>);<br>
+			&nbsp; prenom <span class="balise">=</span> prompt(<span class="yellow">'Très bien, votre prénom ensuite :'</span>);<br>
+			&nbsp; result <span class="balise">=</span> nom <span class="balise">+</span> <span class="yellow">' '</span> <span class="balise">+</span> prenom; <span class="commentaire">// le (' ') est utilisé pour ajouter d'espace.</span> <br><br>
+			&nbsp; <span class="blue">alert</span>(result);<br>
+			&lt;<span class="balise">/script</span>&gt;
+		</code>
+		<button><a href="prompt.num.html">Suivant</a></button><button><a href="../index.html">Retour</a></button>
+	</div>
+	<script>
+		var nom, prenom, result;
+		nom = prompt('Tapez votre nom :');
+		prenom = prompt('Très bien, votre prénom ensuite :');
+		result = nom + ' ' + prenom;
+		alert(result);
+	</script>
+</body>
+</html>

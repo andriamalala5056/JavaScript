@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="assets/favicon.ico">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+		<h1>JAVASCRIPT</h1>
+		<h2>1. Alert</h2>
+		<p>Cette page contient un alert dès l'ouverture de la page et après actualisation.</p>
+		<code>
+			&lt;<span class="balise">script</span>&gt;<br>
+			&nbsp; <span class="blue">alert</span>(<span class="yellow">"Contenu de l'alert!"</span>);<br>
+			&lt;<span class="balise">/script</span>&gt;
+		</code>
+		<p>Il est aussi possible de l'afficher à l'aide d'un boutton, voici un exemple :</p>
+		<script>
+			function button() {
+				alert('Ceci est un alert après clic du boutton !');
+			}
+		</script>
+		<input type="button" value="Voir l'alert" onclick=button()>
+		<code>
+			&lt;<span class="balise">script</span>&gt;<br>
+			&nbsp; <span class="blue">function</span> <span class="yellow">button</span>() {<br>
+			&nbsp; &nbsp; <span class="blue">alert</span>(<span class="yellow">'Ceci est un alert après clic du boutton !'</span>);<br>
+			&nbsp; } <br>
+			&lt;<span class="balise">/script</span>&gt;<br><br>
+			&lt;<span class="blue">input</span> <span class="yellow">type</span><span class="balise">=</span>"button" <span class="yellow">value</span><span class="balise">=</span>"Voir l'alert" <span class="yellow">onclick</span><span class="balise">=</span>button()&gt;
+		</code>
+		<button><a href="pages/prompt.html">Suivant</a></button><!--button>Retour</button-->
+	</div>
+	<script>
+		alert("Contenu de l'alert!");
+	</script>
+</body>
+</html>
